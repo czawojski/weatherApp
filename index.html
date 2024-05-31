@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project Weather App</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="tempChoice">
+            <p>Select your preferred temperature scale:</p>
+            <div class="scales">
+                <input type="radio" id="cBtn" name="temp_choice" value="Celsius">
+                <label for="celsius">Celsius</label><br>
+                <input type="radio" id="fBtn" name="temp_choice" value="Fahrenheit">
+                <label for="fahrenheit">Fahrenheit</label>
+            </div>
+        </div>
+        
+        <div class="searchContainer">
+            <input type="text" id="searchBar" placeholder="Find weather for a city or zip code...">
+        </div>
+
+        <div class="weather">
+            <img src="">
+            <span id="location"></span>
+            <span id="condition"></span>
+            <span id="temperature"></span>
+        </div>
+        
+    </div>
+</body>
+</html>
