@@ -1,7 +1,7 @@
 # weatherApp
 Odin Project weather app API project
 
-- Instructions from The Odin Project:
+**Instructions from The Odin Project:**
 
 Set up a blank HTML document with the appropriate links to your JavaScript and CSS files.
 
